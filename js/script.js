@@ -23,7 +23,7 @@ function guessNumber(name, num) {
   } else if (num > randomNumber) {
     response.innerText = `Hey, ${name}, your guess was too high. The number was ${randomNumber}.`;
   } else {
-    response.innerText = `That's not a number, {name}!`;
+    response.innerText = `That's not a number, ${name}!`;
   }
 }
 
