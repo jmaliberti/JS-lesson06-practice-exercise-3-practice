@@ -14,7 +14,7 @@ function guessNumber(name, num) {
   }
 
   // We've got a number between 1 and 25, let's do this.
-  showguess.innerText = num;
+  showGuess.innerText = num;
 
   if (num === randomNumber) {
     response.innerText = `Hey, ${name}, you totally guessed the number! Must be your lucky day.`;
@@ -27,4 +27,4 @@ function guessNumber(name, num) {
   }
 }
 
-guessNumber(Octavia, num);
+guessNumber("Octavia", num);
