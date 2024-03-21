@@ -18,7 +18,7 @@ function guessNumber(name, num) {
 
   if (num === randomNumber) {
     response.innerText = `Hey, ${name}, you totally guessed the number! Must be your lucky day.`;
-  } elseif (num < randomNumber) {
+  } else if (num < randomNumber) {
     response.innerText = `Hey, ${name}, your guess was too low. The number was ${randomNumber}.`;
   } else if (num > randomNumber) {
     response.innerText = `Hey, ${name}, your guess was too high. The number was ${randomNumber}.`;
